@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFramework>net8.0-windows</TargetFramework>
+        <TargetFramework>net10.0-windows</TargetFramework>
         <OutputType>WinExe</OutputType>
         <RootNamespace></RootNamespace>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -27,7 +27,7 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
         <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
-        <PackageReference Include="DevExpress.Win.BonusSkins" Version="24.2.*" />
-        <PackageReference Include="DevExpress.Win.RichEdit" Version="24.2.*" />
+        <PackageReference Include="DevExpress.Win.BonusSkins" Version="26.1.*" />
+        <PackageReference Include="DevExpress.Win.RichEdit" Version="26.1.*" />
     </ItemGroup>
 </Project>
